@@ -1,19 +1,13 @@
 {
   "name": "giiiithub-extension",
   "version": "0.0.1",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "description": "You can extend github.",
   "content_scripts": [
     {
-      "matches": [
-        "https://github.com/*"
-      ],
-      "js": [
-        "jquery.min.js",
-        "script.js"
-      ],
-      "css": [
-      ],
+      "matches": ["https://github.com/*"],
+      "js": ["jquery.min.js", "script.js"],
+      "css": [],
       "run_at": "document_start"
     }
   ]

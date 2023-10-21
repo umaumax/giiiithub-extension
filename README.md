@@ -2,6 +2,9 @@
 
 For GitHub
 
+## NOTE
+ref: [bookmarklets/github-pr-extension.user.js at master · umaumax/bookmarklets]( https://github.com/umaumax/bookmarklets/blob/master/github-pr-extension.user.js )
+
 ## functions
 
 *   Add `🎯DIFF` link to each commit at pull request main page
